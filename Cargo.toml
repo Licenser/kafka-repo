@@ -11,3 +11,4 @@ rdkafka = "0.24"
 async-std = {version = "1.6.5", features = ["unstable", "attributes"]}
 async-io = "1.1"
 futures = "0.3"
+smol = "*"
