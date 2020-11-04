@@ -31,6 +31,7 @@ fn producer() -> FutureProducer {
         .set("client.id", "oops")
         .set("bootstrap.servers", "kafka:9092")
         .set("queue.buffering.max.ms", "1000")
+        .set("message.timeout.ms", "5000")
         .create()
         .unwrap()
 }
